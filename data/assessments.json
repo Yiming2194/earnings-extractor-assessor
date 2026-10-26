@@ -1213,5 +1213,202 @@
     "filing_found": false,
     "recheck": true,
     "assessed_at": "2026-10-26T06:37:48+08:00"
+  },
+  {
+    "accession": "0001437749-26-032974",
+    "cik": "1042729",
+    "company": "MERCANTILE BANK CORP",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "verdicts": {
+      "revenue": {
+        "verdict": "cannot check",
+        "reason": "The watcher left revenue empty, so there is nothing to check. The release gives net revenue of $73.2 million."
+      },
+      "operating_income": {
+        "verdict": "cannot check",
+        "reason": "The watcher left operating income empty, so there is nothing to check. The release gives no operating income line for this bank."
+      },
+      "net_income": {
+        "verdict": "cannot check",
+        "reason": "No filed figure could be read today (SEC answered 403). The quote is in the release and holds 24,072 thousand (24.072 million)."
+      },
+      "diluted_eps": {
+        "verdict": "cannot check",
+        "reason": "No filed figure could be read today (SEC answered 403). The quote is in the release and holds 1.39."
+      }
+    },
+    "ratings": {
+      "S1": {
+        "score": 5,
+        "reason": "No 10-Q figure could be read yet. Both quotes are in the release and hold their numbers (24,072 thousand; 1.39). The 10-Q check is still to come."
+      },
+      "S2": {
+        "score": 4,
+        "reason": "Revenue is empty although the release gives net revenue of $73.2 million: one point off. Operating income is not given for this bank, so that is no fault."
+      },
+      "S3": {
+        "score": 3,
+        "reason": "Net income and EPS can be used as they stand, but revenue is missing, so the analyst must open the release for the $73.2 million net revenue."
+      }
+    },
+    "checks": {
+      "revenue": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "operating_income": {
+        "extracted": null,
+        "quote_found": null,
+        "number_in_quote": null,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "nothing to check: the watcher left this figure empty (null)"
+      },
+      "net_income": {
+        "extracted": "24.072 USD millions",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403))."
+      },
+      "diluted_eps": {
+        "extracted": "1.39 USD per share",
+        "quote_found": true,
+        "number_in_quote": true,
+        "filed": null,
+        "filed_value": null,
+        "filed_tag": null,
+        "filed_form": null,
+        "filed_on": null,
+        "filed_period": null,
+        "difference": null,
+        "match": null,
+        "note": "The filed figures could not be read today (blocked_by_routine_network: data.sec.gov (the network proxy answered 403))."
+      }
+    },
+    "claims": {
+      "M1": {
+        "verdict": "matches",
+        "reason": "Tested on the release's own table: net income 24,072 thousand (24.1 million) and diluted EPS 1.39, as claimed. No 10-Q figure was readable today."
+      },
+      "M2": {
+        "verdict": "matches",
+        "reason": "Release's own figures: net interest income 60.9 plus noninterest income 12.3 gives 73.2 million, against 52.0 plus 10.4 gives 62.4 a year ago: up 17.3%."
+      }
+    },
+    "tone": {
+      "verdict": "supported",
+      "reason": "Release table: income before tax 28,950 against 27,440 thousand a year ago and net revenue up 17.3%. Diluted EPS fell from 1.46 to 1.39, so 'robust' is only partly borne out."
+    },
+    "fundamentals": [
+      {
+        "key": "revenue",
+        "name": "Revenue (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_income",
+        "name": "Operating income (USD millions)",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_income",
+        "name": "Net income (USD millions)",
+        "this_quarter": 24.072,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "diluted_eps",
+        "name": "Diluted EPS (USD)",
+        "this_quarter": 1.39,
+        "this_quarter_from": "release",
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "operating_margin",
+        "name": "Operating margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      },
+      {
+        "key": "net_margin",
+        "name": "Net margin",
+        "this_quarter": null,
+        "this_quarter_from": null,
+        "year_ago": null,
+        "change_year": null,
+        "previous_quarter": null,
+        "change_quarter": null
+      }
+    ],
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "Net income was $24.1 million, or $1.39 per diluted share.",
+        "quote": "reported net income of $24.1 million, or $1.39 per diluted share, for the third quarter of 2026",
+        "quote_found": true
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Net revenue rose 17.3% from the prior-year third quarter.",
+        "quote": "Net revenue, consisting of net interest income and noninterest income, was $73.2 million during the third quarter of 2026, an increase of $10.8 million, or 17.3 percent",
+        "quote_found": true
+      }
+    ],
+    "watcher_tone": {
+      "label": "positive",
+      "reason": "The CEO calls performance metrics strong and the results robust."
+    },
+    "picked_from_radar": true,
+    "filing_found": false,
+    "recheck": true,
+    "assessed_at": "2026-10-27T06:38:07+08:00"
   }
 ]
