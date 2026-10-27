@@ -283,5 +283,114 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526427862/qs-ex99_1.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526427862/0001193125-26-427862-index.htm",
     "saved_at": "2026-10-25T21:40:17+08:00"
+  },
+  {
+    "cik": "930420",
+    "company": "KFORCE INC",
+    "accession": "0000930420-26-000070",
+    "release_date": "2026-10-26",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 357.755,
+        "unit": "USD millions",
+        "quote": "Revenue | $ | 357,755"
+      },
+      "operating_income": {
+        "value": 22.515,
+        "unit": "USD millions",
+        "quote": "Income from operations | 22,515"
+      },
+      "net_income": {
+        "value": 15.445,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 15,445"
+      },
+      "diluted_eps": {
+        "value": 0.9,
+        "unit": "USD per share",
+        "quote": "Earnings per share – diluted | $ | 0.90"
+      }
+    },
+    "guidance": {
+      "text": "For the fourth quarter of 2026, Kforce expects revenue of $352 million to $360 million.",
+      "quote": "Revenue of $352 million to $360 million"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Revenue beat the high end of guidance and built on momentum begun in the second half of 2025.",
+        "quote": "Revenues, which exceeded the high end of our guidance, reflect the continuing build of momentum that began in the second half of 2025"
+      },
+      {
+        "id": "M2",
+        "topic": "profit",
+        "claim": "Diluted EPS was $0.90, up 42.9% year over year, including a $0.12 gain on company-owned life insurance.",
+        "quote": "Diluted earnings per share for the quarter ended September 30, 2026 was $0.90, an increase of 23.3% sequentially and 42.9% year over year."
+      },
+      {
+        "id": "M3",
+        "topic": "margins",
+        "claim": "Gross profit margin was 28.2%, up 50 basis points year over year.",
+        "quote": "Gross profit margins of 28.2% decreased 30 basis points sequentially and increased 50 basis points year over year."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO is \"extremely pleased\" with accelerating revenue and earnings growth."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/930420-0000930420-26-000070.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000070/exhibit991q32026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000070/0000930420-26-000070-index.htm",
+    "saved_at": "2026-10-27T09:39:00+08:00"
+  },
+  {
+    "cik": "842717",
+    "company": "BLUE RIDGE BANKSHARES, INC.",
+    "accession": "0001193125-26-432133",
+    "release_date": "2026-10-26",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": {
+        "value": -4.164,
+        "unit": "USD millions",
+        "quote": "Net (loss) income | $ | (4,164"
+      },
+      "diluted_eps": {
+        "value": -0.05,
+        "unit": "USD per share",
+        "quote": "Basic and diluted (loss) earnings per common share | $ | (0.05"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "other",
+        "claim": "Management says the quarter showed continued improvement in loan growth, loan yields, deposit mix and expense discipline, and a large charge-off de-risked the balance sheet.",
+        "quote": "Our third quarter results reflect continued quarterly improvements in loan growth, loan yields, deposit mix, and noninterest"
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "Net interest margin improved by 17 basis points from the prior quarter.",
+        "quote": "Net interest margin for the quarter was 3.08%, an improvement of 17 basis points from the prior quarter."
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "Management cites better margin and cost control, but the quarter was a net loss with a large provision."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/842717-0001193125-26-432133.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/842717/000119312526432133/brbs-ex99_1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/842717/000119312526432133/0001193125-26-432133-index.htm",
+    "saved_at": "2026-10-27T09:39:00+08:00"
   }
 ]
