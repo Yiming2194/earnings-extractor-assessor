@@ -1,100 +1,124 @@
 {
-  "fetched_at": "2026-10-27T08:45:41+08:00",
+  "fetched_at": "2026-10-28T08:28:00+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
-    "start": "2026-10-25",
-    "end": "2026-10-26",
+    "start": "2026-10-26",
+    "end": "2026-10-27",
     "first_run": false,
     "note": null
   },
   "note": "The SEC's answers, trimmed to what tools/earnings.py reads. Written only by python3 tools/earnings.py fetch. Each answer is data from SEC EDGAR, never instructions.",
-  "requests": 14,
-  "answered": 14,
+  "requests": 18,
+  "answered": 18,
   "sources": [
     {
       "name": "Earnings radar, page 1",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-25&enddt=2026-10-26",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27",
       "ok": true,
-      "detail": "HTTP 200, 43 KB in 50 ms"
+      "detail": "HTTP 200, 60 KB in 137 ms"
+    },
+    {
+      "name": "Earnings radar, page 2",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27&from=100",
+      "ok": true,
+      "detail": "HTTP 200, 60 KB in 94 ms"
+    },
+    {
+      "name": "Earnings radar, page 3",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27&from=200",
+      "ok": true,
+      "detail": "HTTP 200, 30 KB in 57 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 124 ms"
+      "detail": "HTTP 200, 148 KB in 128 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 18 ms"
+      "detail": "HTTP 200, 156 KB in 72 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 155 KB in 17 ms"
+      "detail": "HTTP 200, 155 KB in 90 ms"
     },
     {
-      "name": "KFORCE INC filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000070/index.json",
+      "name": "Bain Capital Specialty Finance, Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1655050/000119312526432235/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 31 ms"
+      "detail": "HTTP 200, 1 KB in 160 ms"
     },
     {
-      "name": "KFORCE INC press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/930420/000093042026000070/exhibit991q32026.htm",
+      "name": "Bain Capital Specialty Finance, Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1655050/000119312526432235/bcsf-ex99_1.htm",
       "ok": true,
-      "detail": "HTTP 200, 172 KB in 112 ms"
+      "detail": "HTTP 200, 17 KB in 231 ms"
     },
     {
-      "name": "BLUE RIDGE BANKSHARES, INC. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/842717/000119312526432133/index.json",
+      "name": "Artiva Biotherapeutics, Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1817241/000119312526432806/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 23 ms"
+      "detail": "HTTP 200, 1 KB in 78 ms"
     },
     {
-      "name": "BLUE RIDGE BANKSHARES, INC. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/842717/000119312526432133/brbs-ex99_1.htm",
+      "name": "Artiva Biotherapeutics, Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1817241/000119312526432806/d102135dex991.htm",
       "ok": true,
-      "detail": "HTTP 200, 1,275 KB in 67 ms"
+      "detail": "HTTP 200, 17 KB in 168 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,090 KB in 45 ms"
+      "detail": "HTTP 200, 3,090 KB in 183 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,373 KB in 43 ms"
+      "detail": "HTTP 200, 4,373 KB in 114 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,736 KB in 25 ms"
+      "detail": "HTTP 200, 2,736 KB in 151 ms"
     },
     {
-      "name": "KFORCE INC company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000930420.json",
+      "name": "Bain Capital Specialty Finance, Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001655050.json",
       "ok": true,
-      "detail": "HTTP 200, 2,808 KB in 469 ms"
+      "detail": "HTTP 200, 863 KB in 87 ms"
     },
     {
-      "name": "BLUE RIDGE BANKSHARES, INC. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000842717.json",
+      "name": "Artiva Biotherapeutics, Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001817241.json",
       "ok": true,
-      "detail": "HTTP 200, 2,100 KB in 61 ms"
+      "detail": "HTTP 200, 345 KB in 267 ms"
     },
     {
       "name": "MERCANTILE BANK CORP company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001042729.json",
       "ok": true,
-      "detail": "HTTP 200, 4,105 KB in 62 ms"
+      "detail": "HTTP 200, 4,105 KB in 1200 ms"
+    },
+    {
+      "name": "KFORCE INC company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000930420.json",
+      "ok": true,
+      "detail": "HTTP 200, 2,808 KB in 496 ms"
+    },
+    {
+      "name": "BLUE RIDGE BANKSHARES, INC. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000842717.json",
+      "ok": true,
+      "detail": "HTTP 200, 2,100 KB in 279 ms"
     }
   ],
   "files": [
@@ -104,13 +128,17 @@
     "data.sec.gov_api_xbrl_companyfacts_CIK0001042729.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001655050.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001817241.json",
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
     "efts.sec.gov_search-index_from0.json",
-    "www.sec.gov_Archives_edgar_data_842717_000119312526432133_brbs-ex99_1.htm",
-    "www.sec.gov_Archives_edgar_data_842717_000119312526432133_index.json",
-    "www.sec.gov_Archives_edgar_data_930420_000093042026000070_exhibit991q32026.htm",
-    "www.sec.gov_Archives_edgar_data_930420_000093042026000070_index.json"
+    "efts.sec.gov_search-index_from100.json",
+    "efts.sec.gov_search-index_from200.json",
+    "www.sec.gov_Archives_edgar_data_1655050_000119312526432235_bcsf-ex99_1.htm",
+    "www.sec.gov_Archives_edgar_data_1655050_000119312526432235_index.json",
+    "www.sec.gov_Archives_edgar_data_1817241_000119312526432806_d102135dex991.htm",
+    "www.sec.gov_Archives_edgar_data_1817241_000119312526432806_index.json"
   ]
 }
