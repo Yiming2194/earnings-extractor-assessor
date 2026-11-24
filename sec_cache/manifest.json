@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T13:17:42+08:00",
+  "fetched_at": "2026-11-24T13:29:03+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
@@ -16,159 +16,159 @@
       "name": "Earnings radar, page 1",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 144 ms"
+      "detail": "HTTP 200, 60 KB in 68 ms"
     },
     {
       "name": "Earnings radar, page 2",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=100",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 78 ms"
+      "detail": "HTTP 200, 60 KB in 50 ms"
     },
     {
       "name": "Earnings radar, page 3",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=200",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 102 ms"
+      "detail": "HTTP 200, 60 KB in 52 ms"
     },
     {
       "name": "Earnings radar, page 4",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=300",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 398 ms"
+      "detail": "HTTP 200, 60 KB in 53 ms"
     },
     {
       "name": "Earnings radar, page 5",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=400",
       "ok": true,
-      "detail": "HTTP 200, 59 KB in 666 ms"
+      "detail": "HTTP 200, 59 KB in 80 ms"
     },
     {
       "name": "Earnings radar, page 6",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=500",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 1356 ms"
+      "detail": "HTTP 200, 60 KB in 60 ms"
     },
     {
       "name": "Earnings radar, page 7",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=600",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 320 ms"
+      "detail": "HTTP 200, 60 KB in 54 ms"
     },
     {
       "name": "Earnings radar, page 8",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=700",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 1548 ms"
+      "detail": "HTTP 200, 60 KB in 339 ms"
     },
     {
       "name": "Earnings radar, page 9",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-10&enddt=2026-11-24&from=800",
       "ok": true,
-      "detail": "HTTP 200, 26 KB in 576 ms"
+      "detail": "HTTP 200, 26 KB in 683 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 149 KB in 48 ms"
+      "detail": "HTTP 200, 149 KB in 108 ms"
     },
     {
       "name": "Alphabet filing index",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 93 ms"
+      "detail": "HTTP 200, 1 KB in 65 ms"
     },
     {
       "name": "Alphabet press release",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
       "ok": true,
-      "detail": "HTTP 200, 361 KB in 230 ms"
+      "detail": "HTTP 200, 361 KB in 127 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 157 KB in 45 ms"
+      "detail": "HTTP 200, 157 KB in 70 ms"
     },
     {
       "name": "Amazon filing index",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 43 ms"
+      "detail": "HTTP 200, 1 KB in 63 ms"
     },
     {
       "name": "Amazon press release",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
       "ok": true,
-      "detail": "HTTP 200, 657 KB in 77 ms"
+      "detail": "HTTP 200, 657 KB in 159 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 154 KB in 40 ms"
+      "detail": "HTTP 200, 154 KB in 51 ms"
     },
     {
-      "name": "BEASLEY BROADCAST GROUP INC filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1099160/000119312526460951/index.json",
+      "name": "Intellia Therapeutics, Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526458422/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 119 ms"
+      "detail": "HTTP 200, 9 KB in 94 ms"
     },
     {
-      "name": "BEASLEY BROADCAST GROUP INC press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1099160/000119312526460951/bbgi-ex99_1.htm",
+      "name": "Intellia Therapeutics, Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526458422/ntla-ex99_1.htm",
       "ok": true,
-      "detail": "HTTP 200, 699 KB in 102 ms"
+      "detail": "HTTP 200, 69 KB in 91 ms"
     },
     {
-      "name": "PodcastOne, Inc. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1940177/000121390026118495/index.json",
+      "name": "Bridger Aerospace Group Holdings, Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1941536/000194153626000038/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 209 ms"
+      "detail": "HTTP 200, 3 KB in 66 ms"
     },
     {
-      "name": "PodcastOne, Inc. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1940177/000121390026118495/ea031199701ex99-1.htm",
+      "name": "Bridger Aerospace Group Holdings, Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1941536/000194153626000038/ex991-bridgeraerospacere.htm",
       "ok": true,
-      "detail": "HTTP 200, 107 KB in 531 ms"
+      "detail": "HTTP 200, 105 KB in 72 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,175 KB in 90 ms"
+      "detail": "HTTP 200, 3,175 KB in 175 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,447 KB in 1042 ms"
+      "detail": "HTTP 200, 4,447 KB in 207 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,745 KB in 95 ms"
+      "detail": "HTTP 200, 2,745 KB in 228 ms"
     },
     {
-      "name": "BEASLEY BROADCAST GROUP INC company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001099160.json",
+      "name": "Intellia Therapeutics, Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652130.json",
       "ok": true,
-      "detail": "HTTP 200, 2,085 KB in 505 ms"
+      "detail": "HTTP 200, 1,646 KB in 240 ms"
     },
     {
-      "name": "PodcastOne, Inc. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001940177.json",
+      "name": "Bridger Aerospace Group Holdings, Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001941536.json",
       "ok": true,
-      "detail": "HTTP 200, 535 KB in 46 ms"
+      "detail": "HTTP 200, 931 KB in 325 ms"
     }
   ],
   "files": [
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0001099160.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0001940177.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001652130.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001941536.json",
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
@@ -183,11 +183,11 @@
     "efts.sec.gov_search-index_from800.json",
     "www.sec.gov_Archives_edgar_data_1018724_000101872426000038_amzn-20260930xex991.htm",
     "www.sec.gov_Archives_edgar_data_1018724_000101872426000038_index.json",
-    "www.sec.gov_Archives_edgar_data_1099160_000119312526460951_bbgi-ex99_1.htm",
-    "www.sec.gov_Archives_edgar_data_1099160_000119312526460951_index.json",
     "www.sec.gov_Archives_edgar_data_1652044_000165204426000080_googexhibit991q32026.htm",
     "www.sec.gov_Archives_edgar_data_1652044_000165204426000080_index.json",
-    "www.sec.gov_Archives_edgar_data_1940177_000121390026118495_ea031199701ex99-1.htm",
-    "www.sec.gov_Archives_edgar_data_1940177_000121390026118495_index.json"
+    "www.sec.gov_Archives_edgar_data_1652130_000119312526458422_index.json",
+    "www.sec.gov_Archives_edgar_data_1652130_000119312526458422_ntla-ex99_1.htm",
+    "www.sec.gov_Archives_edgar_data_1941536_000194153626000038_ex991-bridgeraerospacere.htm",
+    "www.sec.gov_Archives_edgar_data_1941536_000194153626000038_index.json"
   ]
 }
